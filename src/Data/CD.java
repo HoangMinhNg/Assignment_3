@@ -71,7 +71,7 @@ public class CD implements Serializable, Comparable<CD> {
     }
 
     public void showInfor() {
-        System.out.printf("|%-8s|%-15s|%-10s|%-11s|%-11f|%-10d|\n", ID, collection_name, type, title, unit_price, year);
+        System.out.printf("|%-8s|%-15s|%-10s|%-11s|%-11.3f|%-10d|\n", ID, collection_name, type, title, unit_price, year);
     }
 
     @Override
@@ -82,6 +82,6 @@ public class CD implements Serializable, Comparable<CD> {
 
     @Override
     public int compareTo(CD o) {
-        return this.title.compareToIgnoreCase(o.title);
+        return this.collection_name.compareToIgnoreCase(o.collection_name);
     }
 }

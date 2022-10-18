@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c565c0e6-07bd-4156-a16c-91703882cf04" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment_3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/I_menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Data/CD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Data/CDList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyTool/Tool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/CDHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/Menu.java" afterDir="false" />
+    <list default="true" id="c565c0e6-07bd-4156-a16c-91703882cf04" name="Changes" comment="TEXT FILE">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/CD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +68,24 @@
       <workItem from="1665544823931" duration="4622000" />
       <workItem from="1665549775503" duration="452000" />
       <workItem from="1665585112661" duration="1214000" />
-      <workItem from="1665904499221" duration="245000" />
+      <workItem from="1665904499221" duration="1777000" />
+      <workItem from="1666069138445" duration="73000" />
     </task>
+    <task id="LOCAL-00001" summary="minz">
+      <created>1665905010568</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665905010568</updated>
+    </task>
+    <task id="LOCAL-00002" summary="TEXT FILE">
+      <created>1665906211379</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665906211379</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,5 +101,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="minz" />
+    <MESSAGE value="TEXT FILE" />
+    <option name="LAST_COMMIT_MESSAGE" value="TEXT FILE" />
   </component>
 </project>
