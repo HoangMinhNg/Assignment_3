@@ -43,19 +43,6 @@ public class CDList {
         return -1;
     }
 
-    private int checkTitle(String title, ArrayList<CD> checkList) {
-        if (checkList.isEmpty() && num == 0) {
-            return -1;
-        } else {
-            for (int i = 0; i < checkList.size(); i++) {
-                if (checkList.get(i).getTitle().equalsIgnoreCase(title)) {
-                    return i;
-                }
-            }
-        }
-        return -1;
-    }
-
     public void addCDtocatalog() {
         if (num >= MAX) {
             System.out.println("List is full. Cannot add new CD");
@@ -72,18 +59,9 @@ public class CDList {
                 }
             } while (index1 >= 0 || index2 >= 0);
 
-            String collection_name = Tool.getString("Enter collection name: ");
-            String type = Tool.getString("Enter type: ");
-            String title;
-            do {
-                title = Tool.getString("Enter title: ");
-                index1 = checkTitle(title, filelist);
-                index2 = checkID(title, newlist);
-                if (index1 >= 0 || index2 >= 0) {
-                    System.out.println("Title is duplicated. Try again");
-                }
-            } while (index1 >= 0 || index2 >= 0);
-
+            String collection_name = Tool.getCollection("Enter collection name(game/music/movie): ");
+            String type = Tool.getType("Enter type(audio/video): ");
+            String title = Tool.getString("Enter title: ");
             Float unit_price = Tool.getFloat("Enter price: ");
             int year = Tool.getPossitiveInt("Enter year: ");
             listadd[num] = new CD(ID, collection_name, type, title, unit_price, year);

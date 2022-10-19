@@ -54,6 +54,53 @@ public class Tool {
         }
     }
 
+    public static String getCollection(String inputMessage){
+        String input = "";
+        boolean check = true;
+        do {
+            System.out.print(inputMessage);
+            input = sc.nextLine();
+            if (input.isEmpty()){
+                System.out.println("Not blank or empty. Please input again");
+                check = true;
+            }else if(input.equalsIgnoreCase("game")){
+                input = "game";
+                check = false;
+            } else if (input.equalsIgnoreCase("movie")) {
+                input = "movie";
+                check = false;
+            } else if (input.equalsIgnoreCase("music")) {
+                input = "music";
+                check = false;
+            }else{
+                System.out.println("Input must be in 3 collection (game/music/movie)");
+            }
+        }while (check);
+        return input.toUpperCase();
+    }
+
+    public static String getType(String inputMessage){
+        String input = "";
+        boolean check = true;
+        do {
+            System.out.print(inputMessage);
+            input = sc.nextLine();
+            if (input.isEmpty()){
+                System.out.println("Not blank or empty. Please input again");
+                check = true;
+            }else if(input.equalsIgnoreCase("audio")){
+                input = "game";
+                check = false;
+            } else if (input.equalsIgnoreCase("video")) {
+                input = "movie";
+                check = false;
+            }else{
+                System.out.println("Input must be in 2 Type (audio/video)");
+            }
+        }while (check);
+        return input.toUpperCase();
+    }
+
     public static String getString(String inputMessage) {
         String input = "";
         while (true) {

@@ -71,7 +71,7 @@ public class CD implements Serializable, Comparable<CD> {
     }
 
     public void showInfor() {
-        System.out.printf("|%-8s|%-15s|%-10s|%-11s|%-11.3f|%-10d|\n", ID, collection_name, type, title, unit_price, year);
+        System.out.printf("|%-8s|%-15s|%-10s|%-11s|%-11.2f|%-10d|\n", ID, collection_name, type, title, unit_price, year);
     }
 
     @Override
