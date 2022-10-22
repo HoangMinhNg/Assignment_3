@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c565c0e6-07bd-4156-a16c-91703882cf04" name="Changes" comment="complete">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/CD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/CDList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/CDList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyTool/Tool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyTool/Tool.java" afterDir="false" />
-    </list>
+    <list default="true" id="c565c0e6-07bd-4156-a16c-91703882cf04" name="Changes" comment="complete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,15 +31,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Code With Me"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Code With Me&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -73,6 +68,7 @@
       <workItem from="1665904499221" duration="1777000" />
       <workItem from="1666069138445" duration="483000" />
       <workItem from="1666148263601" duration="1621000" />
+      <workItem from="1666401401464" duration="111000" />
     </task>
     <task id="LOCAL-00001" summary="minz">
       <created>1665905010568</created>
